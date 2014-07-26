@@ -54,10 +54,14 @@ jQuery('.demo_changer .demo-icon').click(function () {
         });
     }
 });
+//
+//// Selector
+//$(window).on('load', function () {
+//    $('.selectpicker').selectpicker({
+//        'selectedText': 'cat'
+//    });
+//});
 
-// Selector
-$(window).on('load', function () {
-    $('.selectpicker').selectpicker({
-        'selectedText': 'cat'
-    });
+$('.selectpicker').selectpicker({
+    'selectedText': 'cat'
 });
