@@ -10,13 +10,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hanoi Grapevine Art</title>
+    <title>Grapevine Art | Discover, Sell, Collect Vietnam's Best Artwork </title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
-
+    <meta name="description" content="Explore, Sell, Collect Vietnam's Best Artwork online, discover new Artist">
+    <meta name="keywords" content="artwork, vietnam art, sell art, buy art, vietnam artwork, vietnam artist, collect art,
+        art curator, sell artwork, buy artwork, collect artwork, art advisory">
+    <meta name="author" content="Hanoi Grapevine">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
     <!-- Bootstrap Styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
@@ -58,17 +60,16 @@
 
     <!-- Demo Examples -->
     <link rel="alternate stylesheet" type="text/css" href="switcher/css/red.css" title="red" media="all"/>
-    <link rel="alternate stylesheet" type="text/css" href="switcher/css/orange.css" title="orange" media="all"/>
+    <link rel="shortcut icon" href="images/favicon.ico" />
     <!-- END Demo Examples -->
     <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 
 <body>
 
-<div art-switcher="" class="demo_changer">
+<!--<div art-switcher class="demo_changer">-->
 
-
-</div>
+<!--</div>-->
 
 <div ng-controller="CommonCtrl">
     <div ng-include="topbar.url"></div>
@@ -78,13 +79,13 @@
     <div ng-include="header.url"></div>
 </div>
 
-<div art-wrapper class="slider-wrapper"></div>
+<!--<div art-wrapper class="slider-wrapper"></div>-->
+<div art-wrapper-slider></div>
+<div art-featured-artworks></div>
+<div art-wrapper-gallery4-columns></div>
 
-
-<ul class="menu">
-    <li><a href="#/view1">view1</a></li>
-    <li><a href="#/view2">view2</a></li>
-</ul>
+<div art-wrapper-shop></div>
+<div art-featured-artists></div>
 
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
@@ -93,7 +94,7 @@
 
 <div ng-view></div>
 
-<div>Angular seed app: v<span app-version></span></div>
+<div>Grapevine Art: v<span app-version></span></div>
 
 <div ng-controller="CommonCtrl">
     <div ng-include="footer.url"></div>
@@ -104,7 +105,6 @@
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
 -->
 
-
 <!-- Main Scripts-->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -113,12 +113,6 @@
 <script src="js/jquery.parallax-1.1.3.js"></script>
 <script src="js/jquery.simple-text-rotator.js"></script>
 <script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
-
-<script src="js/jquery.isotope.min.js"></script>
-
-
-
 
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/angular-route/angular-route.js"></script>
@@ -132,15 +126,26 @@
 <script src="js/filters.js"></script>
 <script src="js/directives.js"></script>
 
-
 <script type="text/javascript" src="switcher/js/bootstrap-select.js"></script>
 <!-- Royal Slider script files -->
 <script type="text/javascript" src="royalslider/jquery.easing-1.3.js"></script>
 <script type="text/javascript" src="royalslider/jquery.royalslider.min.js"></script>
+
 <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
 <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
 <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
+<script src="js/jquery.isotope.min.js"></script>
 
+<script>
+    setStyle("red");
+
+    function setStyle(styleName) {
+        $('link[rel*=style][title]').each(function (i) {
+            this.disabled = true;
+            if (this.getAttribute('title') == styleName) this.disabled = false;
+        });
+    }
+</script>
 </body>
 </html>

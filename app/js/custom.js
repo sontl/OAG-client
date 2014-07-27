@@ -9,6 +9,7 @@
         autoPlay: true
     });
 
+
     $("#owl-testimonial-widget, #owl-blog").owlCarousel({
         items: 1,
         lazyLoad: true,
