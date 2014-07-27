@@ -11,7 +11,7 @@ angular.module('myApp.directives', []).
     }]).
     directive('artSwitcher', [ function () {
         return {
-            restrict : 'AEC',
+            restrict : 'A',
             link: function (scope, element, attrs) { // function content is optional
                 console.log("template switcher generated");
             },
@@ -20,7 +20,7 @@ angular.module('myApp.directives', []).
     }]).
     directive('artWrapper', [ function () {
         return {
-            restrict : 'ACE',
+            restrict : 'A',
             link: function (scope, element, attrs) { // function content is optional
                 console.log("template wrapper generated");
             },
@@ -29,7 +29,7 @@ angular.module('myApp.directives', []).
     }]).
     directive('artFeaturedArtworks', [ function () {
         return {
-            restrict : 'ACE',
+            restrict : 'A',
             link: function (scope, element, attrs) { // function content is optional
                 console.log("featured artwork generated");
             },
@@ -38,7 +38,7 @@ angular.module('myApp.directives', []).
     }]).
     directive('artWrapperSlider', [ function () {
         return {
-            restrict : 'ACE',
+            restrict : 'A',
             link: function (scope, element, attrs) { // function content is optional
                 console.log("wrapper slider generated");
             },
@@ -47,7 +47,7 @@ angular.module('myApp.directives', []).
     }]).
     directive('artWrapperGallery4Columns', [ function () {
         return {
-            restrict : 'ACE',
+            restrict : 'A',
             link: function (scope, element, attrs) { // function content is optional
                 console.log("artWrapperGallery4Columns generated");
             },
@@ -56,7 +56,7 @@ angular.module('myApp.directives', []).
     }]).
     directive('artFeaturedArtists', [ function () {
         return {
-            restrict : 'ACE',
+            restrict : 'A',
             link: function (scope, element, attrs) { // function content is optional
                 console.log("artFeaturedArtists generated");
             },
@@ -65,7 +65,7 @@ angular.module('myApp.directives', []).
     }]).
     directive('artWrapperShop', [ function () {
         return {
-            restrict : 'ACE',
+            restrict : 'A',
             link: function (scope, element, attrs) { // function content is optional
                 console.log("artWrapperShop generated");
             },
