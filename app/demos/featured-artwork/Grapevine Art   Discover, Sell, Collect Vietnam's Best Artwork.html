@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://localhost:8000/app/#/view2 -->
+<html lang="en" ng-app="myApp" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths ng-scope" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}.ng-hide-add-active,.ng-hide-remove{display:block!important;}</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Grapevine Art | Discover, Sell, Collect Vietnam's Best Artwork </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore, Sell, Collect Vietnam&#39;s Best Artwork online, discover new Artist">
+    <meta name="keywords" content="artwork, vietnam art, sell art, buy art, vietnam artwork, vietnam artist, collect art,
+        art curator, sell artwork, buy artwork, collect artwork, art advisory">
+    <meta name="author" content="Hanoi Grapevine">
+    <link rel="shortcut icon" href="http://localhost:8000/app/images/favicon.ico">
+    <link href="http://localhost:8000/app/images/favicon.ico" rel="icon" type="image/x-icon">
+    <!-- Bootstrap Styles -->
+    <link href="http://localhost:8000/app/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="http://localhost:8000/app/style.css" rel="stylesheet">
+
+    <!-- Carousel Slider -->
+    <link href="http://localhost:8000/app/css/owl-carousel.css" rel="stylesheet">
+
+    <!-- CSS Animations -->
+    <link href="http://localhost:8000/app/css/animate.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/css" rel="stylesheet" type="text/css">
+    <link href="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/css(1)" rel="stylesheet" type="text/css">
+    <link href="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/css(2)" rel="stylesheet" type="text/css">
+
+    <!-- SLIDER ROYAL CSS SETTINGS -->
+    <link href="http://localhost:8000/app/royalslider/royalslider.css" rel="stylesheet">
+    <link href="http://localhost:8000/app/royalslider/skins/default-inverted/rs-default-inverted.css" rel="stylesheet">
+
+    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/settings.css" media="screen">
+    <!-- Support for HTML5 -->
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Enable media queries on older bgeneral_rowsers -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>  <![endif]-->
+
+    <!-- Switcher Only -->
+    <link rel="stylesheet" id="switcher-css" type="text/css" href="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/switcher.css" media="all">
+    <!-- END Switcher Styles -->
+
+    <!-- Demo Examples -->
+    <link rel="alternate stylesheet" type="text/css" href="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/red.css" title="red" media="all">
+    <link rel="shortcut icon" href="http://localhost:8000/app/images/favicon.ico">
+    <!-- END Demo Examples -->
+    <script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/modernizr-2.6.2.min.js"></script><style type="text/css"></style>
+</head>
+
+<body>
+
+<!--<div art-switcher class="demo_changer">-->
+
+<!--</div>-->
+
+<div ng-controller="CommonCtrl" class="ng-scope">
+    <!-- ngInclude: topbar.url --><div ng-include="topbar.url" class="ng-scope"><div id="topbar" class="clearfix ng-scope">
+    <div class="container">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="social-icons">
+                <span><a data-toggle="tooltip" data-placement="bottom" title="Facebook" href="http://facebook.com/hanoigrapevine"><i class="fa fa-facebook"></i></a></span>
+                <span><a data-toggle="tooltip" data-placement="bottom" title="Google Plus" href="https://plus.google.com/107357978071465735133"><i class="fa fa-google-plus"></i></a></span>
+                <span><a data-toggle="tooltip" data-placement="bottom" title="Twitter" href="http://twitter.com/hanoigrapevine"><i class="fa fa-twitter"></i></a></span>
+                <span><a data-toggle="tooltip" data-placement="bottom" title="Youtube" href="http://www.youtube.com/user/hanoigrapevine?sub_confirmation=1"><i class="fa fa-youtube"></i></a></span>
+                <span><a data-toggle="tooltip" data-placement="bottom" title="Linkedin" href="http://www.linkedin.com/company/hanoi-grapevine"><i class="fa fa-linkedin"></i></a></span>
+                <span><a data-toggle="tooltip" data-placement="bottom" title="Pinterest" href="http://www.pinterest.com/hanoigrapevine"><i class="fa fa-pinterest"></i></a></span>
+                <span class="last"><a data-toggle="tooltip" data-placement="bottom" title="Skype" href="http://localhost:8000/app/#"><i class="fa fa-skype"></i></a></span>
+            </div><!-- end social icons -->
+        </div><!-- end columns -->
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <div class="topmenu">
+                <span class="topbar-login"><i class="fa fa-user"></i> <a href="http://localhost:8000/app/login.html">Login / Register</a></span>
+                <span class="topbar-cart"><i class="fa fa-shopping-cart"></i> <a href="http://localhost:8000/app/shop-cart.html">0 item - $0.00</a></span>
+            </div><!-- end top menu -->
+            <div class="callus">
+                <span class="topbar-email"><i class="fa fa-envelope"></i> <a href="mailto:contact@grapevine.art">contact@grapevine.art</a></span>
+                <span class="topbar-phone"><i class="fa fa-phone"></i>84-912-128-103</span>
+            </div><!-- end callus -->
+        </div><!-- end columns -->
+    </div><!-- end container -->
+</div><!-- end topbar --></div>
+</div>
+
+<div ng-controller="CommonCtrl" class="ng-scope">
+    <!-- ngInclude: header.url --><div ng-include="header.url" class="ng-scope"><header id="header-style-1" class="ng-scope affix">
+<div class="container">
+<nav class="navbar yamm navbar-default">
+<div class="navbar-header">
+    <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a href="http://localhost:8000/app/index-2.html" class="navbar-brand">Grapevine</a>
+</div><!-- end navbar-header -->
+
+<div id="navbar-collapse-1" class="navbar-collapse collapse navbar-right">
+<ul class="nav navbar-nav">
+
+<li><a href="http://localhost:8000/app/browse.html">Browse Art</a></li>
+<!-- standard drop down -->
+
+
+<li><a href="http://localhost:8000/app/about.html">Collections</a></li>
+<li><a href="http://localhost:8000/app/about.html">Art Advisory</a></li>
+    <li class="dropdown"><a href="http://localhost:8000/app/#" data-toggle="dropdown" class="dropdown-toggle">Features <div class="arrow-up"></div></a>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="http://localhost:8000/app/portfolio-masonry.html">One-To-Watch Artist</a></li>
+            <li><a href="http://localhost:8000/app/portfolio-single-sidebar.html">Inside The Studio</a></li>
+            <li><a href="http://localhost:8000/app/portfolio-single-fullwidth.html">Weekly Roundup</a></li>
+            <li><a href="http://localhost:8000/app/portfolio-category.html">100 Curators 100 Days</a></li>
+        </ul><!-- end dropdown-menu -->
+    </li><!-- end standard drop down -->
+    <li><a href="http://localhost:8000/app/about.html">Sell Art</a></li>
+
+<li><a href="http://localhost:8000/app/about.html">Account</a></li>
+</ul><!-- end navbar-nav -->
+</div><!-- #navbar-collapse-1 -->			</nav><!-- end navbar yamm navbar-default -->
+</div><!-- end container -->
+</header><!-- end header-style-1 -->
+
+<script type="text/javascript-lazy" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/menu.js" class="ng-scope"></script>
+
+<!-- Affix menu -->
+<script type="text/javascript-lazy" class="ng-scope">
+    (function($) {
+        "use strict";
+        $("#header-style-1").affix({
+            offset: {
+                top: 100
+                , bottom: function () {
+                    return (this.bottom = $('#copyrights').outerHeight(true))
+                }
+            }
+        })
+    })(jQuery);
+</script></div>
+</div>
+
+<!--<div art-wrapper class="slider-wrapper"></div>-->
+<div art-wrapper-slider="">
+<div style="position:relative;width:100%;height:auto;margin-top:0px;margin-bottom:0px" class="forcefullwidth_wrapper_tp_banner"><div class="tp-banner-container" style="left: 0px; position: absolute; width: 1366px; overflow: visible;">
+<div class="tp-banner revslider-initialised tp-simpleresponsive" style="max-height: 500px; height: 500px; background-image: none; background-color: rgba(0, 0, 0, 0);" id="revslider-859">
+<ul style="display: block; overflow: hidden; width: 100%; height: 100%; max-height: none;">
+<!--<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >-->
+<!--<img src="demos/sliderbg_04.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">-->
+<!--<div class="tp-caption high_title customin customout start"-->
+<!--data-x="left" data-hoffset="100"-->
+<!--data-y="60"-->
+<!--data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1000"-->
+<!--data-start="500"-->
+<!--data-easing="Back.easeInOut"-->
+<!--data-endspeed="300">OUR-->
+<!--</div>-->
+<!--<div class="tp-caption mini_title customin customout start"-->
+<!--data-x="left" data-hoffset="330"-->
+<!--data-y="290"-->
+<!--data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1000"-->
+<!--data-start="900"-->
+<!--data-easing="Back.easeInOut"-->
+<!--data-endspeed="300">PASSION BRINGS <span>JOLLYANY....</span>-->
+<!--</div>-->
+<!--<div class="tp-caption customin customout"-->
+<!--data-x="left" data-hoffset="100"-->
+<!--data-y="150"-->
+<!--data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="800"-->
+<!--data-start="700"-->
+<!--data-easing="Power4.easeOut"-->
+<!--data-endspeed="500"-->
+<!--data-endeasing="Power4.easeIn"-->
+<!--style="z-index: 3"><img src="demos/sliderlogo_01.png" alt="">-->
+<!--</div>-->
+<!--<div class="tp-caption small_title  customin customout start"-->
+<!--data-x="center" data-hoffset="0"-->
+<!--data-y="330"-->
+<!--data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1600"-->
+<!--data-start="1100"-->
+<!--data-easing="Back.easeInOut"-->
+<!--data-endspeed="300"><a href="#" class="btn btn-primary btn-lg">Buy now</a>-->
+<!--</div>-->
+<!--</li>-->
+<!--<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >-->
+<!--<img src="demos/sliderbg_03.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">-->
+<!--<div class="tp-caption high_title2 customin customout start"-->
+<!--data-x="left" data-hoffset="60"-->
+<!--data-y="130"-->
+<!--data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1000"-->
+<!--data-start="500"-->
+<!--data-easing="Back.easeInOut"-->
+<!--data-endspeed="300">Powerfully Responsive, With <br>-->
+<!--Clean Design-->
+<!--</div>-->
+<!--<div class="tp-caption light_title customin customout start"-->
+<!--data-x="left" data-hoffset="60"-->
+<!--data-y="265"-->
+<!--data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1000"-->
+<!--data-start="700"-->
+<!--data-easing="Back.easeInOut"-->
+<!--data-endspeed="300">Your website should look great across all devices, no matter how big <br>-->
+<!--or small. Take control of your content’s presentation.-->
+<!--</div>-->
+<!--<div class="tp-caption small_title  customin customout start"-->
+<!--data-x="left" data-hoffset="60"-->
+<!--data-y="340"-->
+<!--data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1600"-->
+<!--data-start="900"-->
+<!--data-easing="Back.easeInOut"-->
+<!--data-endspeed="300"><a href="#" class="btn btn-primary btn-lg">Buy now</a>-->
+<!--</div>-->
+<!--<div class="tp-caption customin customout"-->
+<!--data-x="right" data-hoffset="-60"-->
+<!--data-y="bottom" data-voffset="-20"-->
+<!--data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="800"-->
+<!--data-start="700"-->
+<!--data-easing="Power4.easeOut"-->
+<!--data-endspeed="500"-->
+<!--data-endeasing="Power4.easeIn"-->
+<!--style="z-index: 3"><img src="demos/slidertablet_01.png" alt="">-->
+<!--</div>-->
+<!--</li>-->
+<!--<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >-->
+<!--&lt;!&ndash; MAIN IMAGE &ndash;&gt;-->
+<!--<img src="demos/sliderbg_07.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">-->
+
+<!--<div class="tp-caption sfb"-->
+<!--data-x="center" data-hoffset="-200"-->
+<!--data-y="100"-->
+<!--data-speed="1000"-->
+<!--data-start="1250"-->
+<!--data-easing="easeOutBack"><img src="demos/slider_shop_05.png" alt="">-->
+<!--</div>-->
+
+<!--<div class="tp-caption sfb"-->
+<!--data-x="center" data-hoffset="170"-->
+<!--data-y="120"-->
+<!--data-speed="1000"-->
+<!--data-start="1450"-->
+<!--data-easing="easeOutBack"><img src="demos/slider_shop_06.png" alt="">-->
+<!--</div>-->
+
+<!--<div class="tp-caption sfb"-->
+<!--data-x="center" data-hoffset="0"-->
+<!--data-y="60"-->
+<!--data-speed="1000"-->
+<!--data-start="1650"-->
+<!--data-easing="easeOutBack"><img src="demos/sidebar_hot_05.png" alt="">-->
+<!--</div>-->
+
+<!--<div class="tp-caption sfb"-->
+<!--data-x="center" data-hoffset="0"-->
+<!--data-y="230"-->
+<!--data-speed="1000"-->
+<!--data-start="1850"-->
+<!--data-easing="easeOutBack"><img src="demos/slider_shop_07.png" alt="">-->
+<!--</div>-->
+
+<!--&lt;!&ndash; LAYERS &ndash;&gt;-->
+<!--<div class="tp-caption small_title  customin customout start"-->
+<!--data-x="center" data-hoffset="0"-->
+<!--data-y="330"-->
+<!--data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1600"-->
+<!--data-start="1800"-->
+<!--data-easing="Back.easeInOut"-->
+<!--data-endspeed="300"><a href="#" class="btn btn-dark btn-lg">Register Now!</a>-->
+<!--</div>-->
+<!--</li>-->
+<!--<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >-->
+<!--<img src="demos/sliderbg_05.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">-->
+<!--<div class="tp-caption big_title upper_title customin customout start"-->
+<!--data-x="right"-->
+<!--data-hoffset="0"-->
+<!--data-y="95"-->
+<!--data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1000"-->
+<!--data-start="500"-->
+<!--data-easing="Back.easeInOut"-->
+<!--data-endspeed="300">Everything you needed in <span>jollyany</span>-->
+<!--</div>-->
+<!--<div class="tp-caption mini_title2 customin customout"-->
+<!--data-x="right"-->
+<!--data-y="190"-->
+<!--data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1000"-->
+<!--data-start="1000"-->
+<!--data-easing="Back.easeInOut"-->
+<!--data-endspeed="300"><i class="fa fa-star-o"></i> 30 Unique & Trendy Home Page Layouts-->
+<!--</div>-->
+<!--<div class="tp-caption mini_title2 customin customout"-->
+<!--data-x="right"-->
+<!--data-y="220"-->
+<!--data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1000"-->
+<!--data-start="1500"-->
+<!--data-easing="Back.easeInOut"-->
+<!--data-endspeed="300"><i class="fa fa-star-o"></i> 120+ Page Templates Layouts-->
+<!--</div>-->
+<!--<div class="tp-caption mini_title2 customin customout"-->
+<!--data-x="right"-->
+<!--data-y="250"-->
+<!--data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1000"-->
+<!--data-start="2000"-->
+<!--data-easing="Back.easeInOut"-->
+<!--data-endspeed="300"><i class="fa fa-star-o"></i> Mega Menu Support-->
+<!--</div>-->
+<!--<div class="tp-caption mini_title2 customin customout"-->
+<!--data-x="right"-->
+<!--data-y="280"-->
+<!--data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1000"-->
+<!--data-start="2500"-->
+<!--data-easing="Back.easeInOut"-->
+<!--data-endspeed="300"><i class="fa fa-star-o"></i> Revolution Slider-->
+<!--</div>-->
+<!--<div class="tp-caption mini_title2 customin customout"-->
+<!--data-x="right"-->
+<!--data-y="310"-->
+<!--data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1000"-->
+<!--data-start="3000"-->
+<!--data-easing="Back.easeInOut"-->
+<!--data-endspeed="300"><i class="fa fa-star-o"></i> Shop Woocommerce Layouts-->
+<!--</div>-->
+<!--<div class="tp-caption mini_title2 customin customout"-->
+<!--data-x="right"-->
+<!--data-y="340"-->
+<!--data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1000"-->
+<!--data-start="3500"-->
+<!--data-easing="Back.easeInOut"-->
+<!--data-endspeed="300"><i class="fa fa-star-o"></i> BuddyPress Layous & Endless Possibilities-->
+<!--</div>-->
+<!--<div class="tp-caption slider_title_a customin customout"-->
+<!--data-x="center" data-hoffset="130"-->
+<!--data-y="250"-->
+<!--data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1800"-->
+<!--data-start="5000"-->
+<!--data-easing="Power4.easeOut"-->
+<!--data-endspeed="500"-->
+<!--data-endeasing="Power4.easeIn"-->
+<!--style="z-index: 3"><a href="#" title="">Dont Miss it</a>-->
+<!--</div>-->
+<!--<div class="tp-caption customin customout"-->
+<!--data-x="left" data-hoffset="-70"-->
+<!--data-y="20"-->
+<!--data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1800"-->
+<!--data-start="1000"-->
+<!--data-easing="Power4.easeOut"-->
+<!--data-endspeed="500"-->
+<!--data-endeasing="Power4.easeIn"-->
+<!--style="z-index: 3"><img src="demos/slider_screen.png" alt="">-->
+<!--</div>-->
+<!--<div class="tp-caption small_title  customin customout start"-->
+<!--data-x="right"-->
+<!--data-hoffset="0"-->
+<!--data-y="380"-->
+<!--data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="1600"-->
+<!--data-start="5100"-->
+<!--data-easing="Back.easeInOut"-->
+<!--data-endspeed="300"><a href="#" class="btn btn-primary btn-lg">Buy Now</a>-->
+<!--</div>-->
+<!--</li>-->
+<!--<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="5000">-->
+<!--&lt;!&ndash; MAIN IMAGE &ndash;&gt;-->
+<!--<img src="demos/video_bg.jpg"  alt="video_business"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">-->
+<!--&lt;!&ndash; LAYERS &ndash;&gt;-->
+
+<!--&lt;!&ndash; LAYER NR. 1 &ndash;&gt;-->
+<!--<div class="tp-caption tp-fade fadeout fullscreenvideo"-->
+<!--data-x="0"-->
+<!--data-y="0"-->
+<!--data-speed="1000"-->
+<!--data-start="800"-->
+<!--data-easing="Power4.easeOut"-->
+<!--data-endspeed="1500"-->
+<!--data-endeasing="Power4.easeIn"-->
+<!--data-autoplay="true"-->
+<!--data-autoplayonlyfirsttime="false"-->
+<!--data-nextslideatend="true"-->
+<!--data-forceCover="1" data-aspectratio="16:9" data-forcerewind="on"-->
+<!--style="z-index: 2"><video id="revvideo" class="video-js vjs-default-skin" preload="none"-->
+<!--poster='demos/video_bg.jpg' data-setup="{}">-->
+<!--<source src='http://goodwebtheme.com/previewvideo/business_edit.mp4' type='video/mp4' ></source>-->
+<!--<source src='http://goodwebtheme.com/previewvideo/business_edit.webm' type='video/webm' ></source>-->
+<!--<source src='http://goodwebtheme.com/previewvideo/business_edit.ogv' type='video/ogg' ></source>-->
+<!--</video>-->
+<!--</div>-->
+<!--&lt;!&ndash; LAYER NR. 3 &ndash;&gt;-->
+<!--<div class="tp-caption big_title_onepage skewfromleft customout"-->
+<!--data-x="center" data-hoffset="0"-->
+<!--data-y="top" data-voffset="130"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="800"-->
+<!--data-start="1300"-->
+<!--data-easing="Power4.easeOut"-->
+<!--data-endspeed="300"-->
+<!--data-endeasing="Power1.easeIn"-->
+<!--data-captionhidden="on"-->
+<!--style="z-index: 6">We DESIGNED FOR YOUR <span>Company</span>-->
+<!--</div>-->
+<!--&lt;!&ndash; LAYER NR. 7 &ndash;&gt;-->
+<!--<div class="tp-caption small_thin_grey1 customin customout"-->
+<!--data-x="85"-->
+<!--data-y="320"-->
+<!--data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="500"-->
+<!--data-start="2000"-->
+<!--data-easing="Power4.easeOut"-->
+<!--data-endspeed="500"-->
+<!--data-endeasing="Power4.easeIn"-->
+<!--data-captionhidden="on"-->
+<!--style="z-index: 8">JOLLYANY TEMPLATE-->
+<!--</div>-->
+<!--&lt;!&ndash; LAYER NR. 7 &ndash;&gt;-->
+<!--<div class="tp-caption small_thin_grey1 customin customout"-->
+<!--data-x="245"-->
+<!--data-y="320"-->
+<!--data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="500"-->
+<!--data-start="2400"-->
+<!--data-easing="Power4.easeOut"-->
+<!--data-endspeed="500"-->
+<!--data-endeasing="Power4.easeIn"-->
+<!--data-captionhidden="on"-->
+<!--style="z-index: 8"><span><i class="fa fa-bullseye"></i></span> 100% RESPONSIVE-->
+<!--</div>-->
+<!--&lt;!&ndash; LAYER NR. 7 &ndash;&gt;-->
+<!--<div class="tp-caption small_thin_grey1 customin customout"-->
+<!--data-x="415"-->
+<!--data-y="320"-->
+<!--data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="500"-->
+<!--data-start="2600"-->
+<!--data-easing="Power4.easeOut"-->
+<!--data-endspeed="500"-->
+<!--data-endeasing="Power4.easeIn"-->
+<!--data-captionhidden="on"-->
+<!--style="z-index: 8"><span><i class="fa fa-bullseye"></i></span> RETINA DISPLAY-->
+<!--</div>-->
+<!--&lt;!&ndash; LAYER NR. 7 &ndash;&gt;-->
+<!--<div class="tp-caption small_thin_grey1 customin customout"-->
+<!--data-x="570"-->
+<!--data-y="320"-->
+<!--data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="500"-->
+<!--data-start="2800"-->
+<!--data-easing="Power4.easeOut"-->
+<!--data-endspeed="500"-->
+<!--data-endeasing="Power4.easeIn"-->
+<!--data-captionhidden="on"-->
+<!--style="z-index: 8"><span><i class="fa fa-bullseye"></i></span> 30+ HOMEPAGES-->
+<!--</div>-->
+<!--&lt;!&ndash; LAYER NR. 7 &ndash;&gt;-->
+<!--<div class="tp-caption small_thin_grey1 customin customout"-->
+<!--data-x="730"-->
+<!--data-y="320"-->
+<!--data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="500"-->
+<!--data-start="3000"-->
+<!--data-easing="Power4.easeOut"-->
+<!--data-endspeed="500"-->
+<!--data-endeasing="Power4.easeIn"-->
+<!--data-captionhidden="on"-->
+<!--style="z-index: 8"><span><i class="fa fa-bullseye"></i></span> 150+ VALID TEMPLATES-->
+<!--</div>-->
+<!--&lt;!&ndash; LAYER NR. 7 &ndash;&gt;-->
+<!--<div class="tp-caption small_thin_grey1 customin customout"-->
+<!--data-x="920"-->
+<!--data-y="320"-->
+<!--data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"-->
+<!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+<!--data-speed="500"-->
+<!--data-start="3200"-->
+<!--data-easing="Power4.easeOut"-->
+<!--data-endspeed="500"-->
+<!--data-endeasing="Power4.easeIn"-->
+<!--data-captionhidden="on"-->
+<!--style="z-index: 8"><span><i class="fa fa-bullseye"></i></span> UNLIMITED COLORS-->
+<!--</div>-->
+<!--</li>-->
+<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" style="width: 100%; height: 100%; overflow: hidden; visibility: visible; left: 0px; top: 0px; z-index: 20; opacity: 1;">
+    <div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="left top" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined"><div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="demos/SeattleArtMuseum_Hero_Img.jpg" data-src="demos/SeattleArtMuseum_Hero_Img.jpg" style="width: 100%; height: 100%; opacity: 0; position: relative; background-image: url(http://localhost:8000/app/demos/SeattleArtMuseum_Hero_Img.jpg); background-color: rgba(0, 0, 0, 0); background-size: cover; background-position: 0% 0%; background-repeat: no-repeat;"></div><div class="slot" style="position:absolute;top:0px;left:0px;overflow:hidden;width:1366.6px;height:500px"><div class="slotslide" style="position: absolute; top: 0px; left: 0px; width: 1366.6px; height: 500px; overflow: hidden; opacity: 0.013054981481481926;"><div style="background-color:rgba(0, 0, 0, 0);position:absolute;top:0px;left:0px;width:1366px;height:500px;background-image:url(demos/SeattleArtMuseum_Hero_Img.jpg);background-repeat:no-repeat;background-size:cover;background-position:left top;"></div></div></div></div>
+    <div class="tp-caption big_title_slider customin customout start" data-x="left" data-hoffset="30" data-y="170" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="500" data-easing="Back.easeInOut" data-endspeed="300" style="min-height: 0px; min-width: 0px; line-height: 56px; border-width: 0px; margin: 0px; padding: 0px 0px 10px; letter-spacing: 0px; font-size: 40px; left: 128px; top: 170px; visibility: hidden; opacity: 0; transform-origin: 50% 0% 0px; transition: all 0s ease 0s; -webkit-transition: all 0s ease 0s; transform: none; -webkit-transform: none;">HANOI <span>ART MUSEUM</span>
+    </div>
+    <div class="tp-caption small_title customin customout start" data-x="left" data-hoffset="30" data-y="246" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1300" data-start="800" data-easing="Back.easeInOut" data-endspeed="300" style="min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px 0px 10px; letter-spacing: 0px; font-size: 20px; left: 128px; top: 246px; visibility: hidden; opacity: 0; transform-origin: 50% 0% 0px; transition: all 0s ease 0s; -webkit-transition: all 0s ease 0s; transform: none; -webkit-transform: none;">Explore NUDE dynamic collection, from Vietnamese masks to paintings by Lam Son
+    </div>
+    <div class="tp-caption small_title customin customout start" data-x="left" data-hoffset="30" data-y="360" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1600" data-start="1100" data-easing="Back.easeInOut" data-endspeed="300" style="min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px 0px 10px; letter-spacing: 0px; font-size: 20px; left: 128px; top: 360px; visibility: hidden; opacity: 0; transform-origin: 50% 0% 0px; transition: all 0s ease 0s; -webkit-transition: all 0s ease 0s; transform: none; -webkit-transform: none;"><a href="http://localhost:8000/app/#" class="btn btn-primary btn-lg">Explore</a>
+    </div>
+    <!--<div class="tp-caption customin customout"-->
+    <!--data-x="right" data-hoffset="-60"-->
+    <!--data-y="bottom" data-voffset="220"-->
+    <!--data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"-->
+    <!--data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"-->
+    <!--data-speed="800"-->
+    <!--data-start="700"-->
+    <!--data-easing="Power4.easeOut"-->
+    <!--data-endspeed="500"-->
+    <!--data-endeasing="Power4.easeIn"-->
+    <!--style="z-index: 3"><img src="demos/sliderman_01.png" alt="">-->
+    <!--</div>-->
+</li>
+<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" style="width: 100%; height: 100%; overflow: hidden; opacity: 1; visibility: visible; left: 0px; top: 0px; z-index: 18;">
+    <div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="left top" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined"><div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="demos/Watermill_Hero_Img_2.jpg" data-src="demos/Watermill_Hero_Img_2.jpg" style="width: 100%; height: 100%; position: relative; opacity: 1; background-image: url(http://localhost:8000/app/demos/Watermill_Hero_Img_2.jpg); background-color: rgba(0, 0, 0, 0); background-size: cover; background-position: 0% 0%; background-repeat: no-repeat;"></div></div>
+    <div class="tp-caption big_title  customin customout start" data-x="left" data-hoffset="30" data-y="170" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="500" data-easing="Back.easeInOut" data-endspeed="300" style="min-height: 0px; min-width: 0px; line-height: 50px; border-width: 0px; margin: 0px; padding: 0px 0px 10px; letter-spacing: 0px; font-size: 36px; left: 128px; top: 170px; visibility: visible; opacity: 0.02420000001092748; transform-origin: 50% 50% 0px; transition: all 0s ease 0s; -webkit-transition: all 0s ease 0s; transform: matrix3d(0.75605, 0, 0, 0, 0, 0.75605, 0, 0, 0, 0, 1, -0.00166, 0, 0, 0, 1); -webkit-transform: none;">EXCLUSIVELY ON <span>GRAPEVINE</span>
+    </div>
+    <div class="tp-caption small_title2 customin customout start" data-x="left" data-hoffset="30" data-y="236" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1300" data-start="800" data-easing="Back.easeInOut" data-endspeed="300" style="min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px 0px 10px; letter-spacing: 0px; font-size: 20px; left: 128px; top: 236px; visibility: visible; opacity: 0.02420000001092748; transform-origin: 50% 50% 0px; transition: all 0s ease 0s; -webkit-transition: all 0s ease 0s; transform: matrix3d(0.75605, 0, 0, 0, 0, 0.75605, 0, 0, 0, 0, 1, -0.00166, 0, 0, 0, 1); -webkit-transform: none;">Collect works by Ha Manh Thang, Pham Huy Thong, Nguyen Huy An, and more
+    </div>
+    <div class="tp-caption small_title  customin customout start" data-x="left" data-hoffset="30" data-y="320" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1600" data-start="1100" data-easing="Back.easeInOut" data-endspeed="300" style="min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px 0px 10px; letter-spacing: 0px; font-size: 20px; left: 128px; top: 320px; visibility: visible; opacity: 0.02420000001092748; transform-origin: 50% 50% 0px; transition: all 0s ease 0s; -webkit-transition: all 0s ease 0s; transform: matrix3d(0.75605, 0, 0, 0, 0, 0.75605, 0, 0, 0, 0, 1, -0.00166, 0, 0, 0, 1); -webkit-transform: none;"><a href="http://localhost:8000/app/#" class="btn btn-primary btn-lg">Buy now</a>
+    </div>
+    <div class="tp-caption customin customout start" data-x="right" data-hoffset="120" data-y="bottom" data-voffset="0" data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="800" data-start="700" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power4.easeIn" style="z-index: 3; left: 1001px; top: 13px; visibility: visible; opacity: 0.9565783537306344; transform-origin: 50% 50% 0px; transform: matrix3d(0.98914, 0, 0, 0, 0, 0.98914, 0, 0, 0, 0, 1, -0.00166, 0, 0, 0, 1); -webkit-transform: none;"><img src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/Pham-Huy-Thong-portrait.png" alt="" style="width: 387px; height: 487px;">
+    </div>
+</li>
+</ul>
+<div class="tp-bannertimer" style="width: 0%; visibility: visible;"></div>
+<div class="tp-loader spinner0" style="visibility: inherit; opacity: 0;"><div class="dot1"></div><div class="dot2"></div><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div></div>
+<div class="tp-bullets simplebullets round hidebullets" style="bottom: 20px; left: 50%; margin-left: -17px;"><div class="bullet first selected"></div><div class="bullet last"></div><div class="tpclear"></div></div><div style="position: absolute; margin-top: -28px; left: 20px; top: 250px;" class="tp-leftarrow tparrows default hidearrows"></div><div style="position: absolute; margin-top: -28px; right: 20px; top: 250px;" class="tp-rightarrow tparrows default hidearrows"></div></div><div class="tp-fullwidth-forcer" style="width: 100%; height: 500px;"></div></div>
+<!-- end slider-wrapper -->
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        var revapi = $('.tp-banner').revolution( {
+            delay: 2000,
+            startwidth: 1170,
+            startheight: 500,
+            hideThumbs: 10,
+            fullWidth: "on",
+            forceFullWidth: "on"
+        });
+    });
+</script>
+
+</div>
+<div art-featured-artworks=""><link href="http://localhost:8000/app/royalslider/skins/universal/rs-universal.css" rel="stylesheet">
+
+<section class="grey-wrapper jt-shadow">
+    <div class="container">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <div class="widget">
+                <h3>FEATURED ARTWORKS</h3>
+
+                <div id="gallery-2" class="royalSlider rsUni rsHor rsFade rsWithThumbs rsWithThumbsVer" style="height: 456.25px;"><div class="rsOverflow" style="width: 634px; height: 456px;"><div class="rsContainer"><div style="z-index:0;" class="rsSlide "><img class="rsImg rsMainSlideImage" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/FA-1.jpg" style="width: 609px; height: 449px; margin-left: 12px; margin-top: 3px; visibility: visible; -webkit-transition: opacity 400ms ease-in-out; transition: opacity 400ms ease-in-out; opacity: 1;"></div><div style="z-index:0; display:none; opacity:0;" class="rsSlide "><img class="rsImg rsMainSlideImage" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/FA-2-full.jpg" style="width: 609px; height: 449px; margin-left: 12px; margin-top: 3px;"></div><div style="z-index:0; display:none; opacity:0;" class="rsSlide "><img class="rsImg rsMainSlideImage" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/FA3-full.jpg" style="width: 609px; height: 449px; margin-left: 12px; margin-top: 3px;"></div><div style="z-index:0; display:none; opacity:0;" class="rsSlide "><img class="rsImg rsMainSlideImage" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/FA-6-full.jpg" style="width: 609px; height: 449px; margin-left: 12px; margin-top: 3px;"></div><div style="z-index:0; display:none; opacity:0;" class="rsSlide "><img class="rsImg rsMainSlideImage" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/FA-5-full.jpg" style="width: 609px; height: 449px; margin-left: 12px; margin-top: 3px;"></div></div><div class="rsFullscreenBtn"><div class="rsFullscreenIcn"></div></div></div><div class="rsNav rsThumbs rsThumbsVer" style="padding-right: 4px;"><div class="rsThumbsContainer" style="-webkit-transition: -webkit-transform; transition: -webkit-transform; -webkit-transform: translate3d(0px, 2px, 0px); height: 456px;"><div style="margin-bottom:4px;" class="rsNavItem rsThumb rsNavSelected"><img alt="" class="rsTmb" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/FA-1.jpg" height="75" width="96"><span class="thumbIco"></span></div><div style="margin-bottom:4px;" class="rsNavItem rsThumb"><img alt="" class="rsTmb" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/FA-2.jpg" height="75" width="96"><span class="thumbIco"></span></div><div style="margin-bottom:4px;" class="rsNavItem rsThumb"><img alt="" class="rsTmb" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/FA-3.jpg" height="75" width="96"><span class="thumbIco"></span></div><div style="margin-bottom:4px;" class="rsNavItem rsThumb"><img alt="" class="rsTmb" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/FA-4.jpg" height="75" width="96"><span class="thumbIco"></span></div><div style="margin-bottom:4px;" class="rsNavItem rsThumb"><img alt="" class="rsTmb" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/FA-5-full.jpg" height="75" width="96"><span class="thumbIco"></span></div><div style="margin-bottom:4px;" class="rsNavItem rsThumb"><img alt="" class="rsTmb" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/FA-6.jpg" height="75" width="96"><span class="thumbIco"></span></div></div><div class="rsThumbsArrow rsThumbsArrowLeft rsThumbsArrowDisabled"><div class="rsThumbsArrowIcn"></div></div><div class="rsThumbsArrow rsThumbsArrowRight rsThumbsArrowDisabled"><div class="rsThumbsArrowIcn"></div></div></div></div><!-- end gallery -->
+            </div><!-- end widget -->
+        </div><!-- end col-lg-7 -->
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="widget">
+                <h3>FOR SALE</h3>
+                <div class="popular_items">
+                    <div class="popular_items_div">
+                        <div class="recent_post_img">
+                            <a href="http://localhost:8000/app/#"><img src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/FA-3.jpg" alt=""></a>
+                        </div>
+                        <a href="http://localhost:8000/app/#"><h4>Aias and Achilles</h4></a>
+                        <div class="meta">
+                            <span><i class="fa fa-calendar"></i> July 20, 2014</span>
+                            <span><i class="fa fa-comment"></i> <a href="http://localhost:8000/app/#">03 Comments</a></span>
+                            <span><i class="fa fa-eye"></i> 84</span>
+                        </div>
+                    </div><!-- end popular_items_div -->
+
+                    <div class="popular_items_div">
+                        <div class="recent_post_img">
+                            <a href="http://localhost:8000/app/#"><img src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/FA-5.jpg" alt=""></a>
+                        </div>
+                        <a href="http://localhost:8000/app/#"><h4>Eve's Temptation Revisited</h4></a>
+                        <div class="meta">
+                            <span><i class="fa fa-calendar"></i> July 20, 2014</span>
+                            <span><i class="fa fa-comment"></i> <a href="http://localhost:8000/app/#">03 Comments</a></span>
+                            <span><i class="fa fa-eye"></i> 84</span>
+                        </div>
+                    </div><!-- end popular_items_div -->
+
+                    <div class="popular_items_div">
+                        <div class="recent_post_img">
+                            <a href="http://localhost:8000/app/#"><img src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/FA-1.jpg" alt=""></a>
+                        </div>
+                        <a href="http://localhost:8000/app/#"><h4>Transmogrification</h4></a>
+                        <div class="meta">
+                            <span><i class="fa fa-calendar"></i> July 20, 2014</span>
+                            <span><i class="fa fa-comment"></i> <a href="http://localhost:8000/app/#">03 Comments</a></span>
+                            <span><i class="fa fa-eye"></i> 84</span>
+                        </div>
+                    </div><!-- end popular_items_div -->
+
+                    <!--<div class="popular_items_div">-->
+                        <!--<div class="recent_post_img">-->
+                            <!--<a href="#"><img src="demos/featured-artwork/FA-6.jpg" alt=""></a>-->
+                        <!--</div>-->
+                        <!--<a href="#"><h4>First freebie item released!</h4></a>-->
+                        <!--<div class="meta">-->
+                            <!--<span><i class="fa fa-calendar"></i> July 20, 2014</span>-->
+                            <!--<span><i class="fa fa-comment"></i> <a href="#">03 Comments</a></span>-->
+                            <!--<span><i class="fa fa-eye"></i> 84</span>-->
+                        <!--</div>-->
+                    <!--</div>&lt;!&ndash; end popular_items_div &ndash;&gt;-->
+
+                    <div class="popular_items_div">
+                        <div class="recent_post_img">
+                            <a href="http://localhost:8000/app/#"><img src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/FA-2.jpg" alt=""></a>
+                        </div>
+                        <a href="http://localhost:8000/app/#"><h4>Domesticated</h4></a>
+                        <div class="meta">
+                            <span><i class="fa fa-calendar"></i> July 20, 2014</span>
+                            <span><i class="fa fa-comment"></i> <a href="http://localhost:8000/app/#">03 Comments</a></span>
+                            <span><i class="fa fa-eye"></i> 84</span>
+                        </div>
+                    </div><!-- end popular_items_div -->
+
+                </div><!-- end popular_items -->
+            </div><!-- end widget -->
+        </div><!-- end col-lg-6 -->
+    </div><!-- end container -->
+</section><!-- end grey-wrapper -->
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        $('#gallery-2').royalSlider({
+            fullscreen: {
+                enabled: true,
+                nativeFS: true
+            },
+            controlNavigation: 'thumbnails',
+            thumbs: {
+                orientation: 'vertical',
+                paddingBottom: 4,
+                appendSpan: true
+            },
+            transitionType:'fade',
+            autoScaleSlider: true,
+            autoScaleSliderWidth: 960,
+            autoScaleSliderHeight: 600,
+            loop: true,
+            arrowsNav: false,
+            keyboardNavEnabled: true
+
+        });
+    });
+</script></div>
+<div art-wrapper-gallery4-columns=""><section class="white-wrapper">
+    <div class="container">
+        <div class="general-title">
+            <h2>Artwork by Categories</h2>
+            <hr>
+        </div><!-- end general title -->
+    </div><!-- end container -->
+
+    <div class="text-center clearfix">
+        <nav class="portfolio-filter">
+            <ul>
+                <li><a class="btn btn-primary" href="http://localhost:8000/app/#" data-filter="*"><span></span>All</a></li>
+                <li><a class="btn btn-primary" href="http://localhost:8000/app/#" data-filter=".photography">Photography</a></li>
+                <li><a class="btn btn-primary" href="http://localhost:8000/app/#" data-filter=".app-design">Drawing</a></li>
+                <li><a class="btn btn-primary" href="http://localhost:8000/app/#" data-filter=".logo">Abstract</a></li>
+            </ul>
+        </nav>
+    </div><!-- end text-center -->
+
+    <div class="portfolio_wrapper padding-top isotope" style="position: relative; overflow: hidden; height: 670px;">
+        <div class="portfolio_item app-design isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 30px, 0px); width: 341px;">
+            <div class="entry">
+                <img src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/SS-1.png" alt="" class="img-responsive">
+                <div class="magnifier">
+                    <div class="buttons">
+                        <a class="st btn btn-default" rel="bookmark" href="http://localhost:8000/app/portfolio-single-sidebar.html">View all Drawing</a>
+                        <h3>The abstract face</h3>
+                    </div><!-- end buttons -->
+                </div><!-- end magnifier -->
+            </div><!-- end entry -->
+        </div><!-- end portfolio_item -->
+
+        <div class="portfolio_item photography isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(341px, 30px, 0px); width: 341px;">
+            <div class="entry">
+                <img src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/portfolio_02.jpg" alt="" class="img-responsive">
+                <div class="magnifier">
+                    <div class="buttons">
+                        <a class="st btn btn-default" rel="bookmark" href="http://localhost:8000/app/portfolio-single-sidebar.html">View all Photography</a>
+                        <h3>Shining on the street</h3>
+                    </div><!-- end buttons -->
+                </div><!-- end magnifier -->
+            </div><!-- end entry -->
+        </div><!-- end portfolio_item -->
+
+        <div class="portfolio_item app-design isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(682px, 30px, 0px); width: 341px;">
+            <div class="entry">
+                <img src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/SS-2.png" alt="" class="img-responsive">
+                <div class="magnifier">
+                    <div class="buttons">
+                        <a class="st btn btn-default" rel="bookmark" href="http://localhost:8000/app/portfolio-single-sidebar.html">View all Drawing</a>
+                        <h3>What the hell is it</h3>
+                    </div><!-- end buttons -->
+                </div><!-- end magnifier -->
+            </div><!-- end entry -->
+        </div><!-- end portfolio_item -->
+
+        <div class="portfolio_item photography isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(1023px, 30px, 0px); width: 341px;">
+            <div class="entry">
+                <img src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/portfolio_04.jpg" alt="" class="img-responsive">
+                <div class="magnifier">
+                    <div class="buttons">
+                        <a class="st btn btn-default" rel="bookmark" href="http://localhost:8000/app/portfolio-single-sidebar.html">View all Photography</a>
+                        <h3>The greatest Way</h3>
+                    </div><!-- end buttons -->
+                </div><!-- end magnifier -->
+            </div><!-- end entry -->
+        </div><!-- end portfolio_item -->
+
+        <div class="portfolio_item photography isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 365px, 0px); width: 341px;">
+            <div class="entry">
+                <img src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/portfolio_11.jpg" alt="" class="img-responsive">
+                <div class="magnifier">
+                    <div class="buttons">
+                        <a class="st btn btn-default" rel="bookmark" href="http://localhost:8000/app/portfolio-single-sidebar.html">View all Photography</a>
+                        <h3>Ali moi moi</h3>
+                    </div><!-- end buttons -->
+                </div><!-- end magnifier -->
+            </div><!-- end entry -->
+        </div><!-- end portfolio_item -->
+
+        <div class="portfolio_item logo isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(341px, 365px, 0px); width: 341px;">
+            <div class="entry">
+                <img src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/SS-5.png" alt="" class="img-responsive">
+                <div class="magnifier">
+                    <div class="buttons">
+                        <a class="st btn btn-default" rel="bookmark" href="http://localhost:8000/app/portfolio-single-sidebar.html">View all Abstract</a>
+                        <h3>Dream with Angels</h3>
+                    </div><!-- end buttons -->
+                </div><!-- end magnifier -->
+            </div><!-- end entry -->
+        </div><!-- end portfolio_item -->
+
+        <div class="portfolio_item logo isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(682px, 365px, 0px); width: 341px;">
+            <div class="entry">
+                <img src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/SS-4.png" alt="" class="img-responsive">
+                <div class="magnifier">
+                    <div class="buttons">
+                        <a class="st btn btn-default" rel="bookmark" href="http://localhost:8000/app/portfolio-single-sidebar.html">View all Abstract</a>
+                        <h3>Melted in Patterns</h3>
+                    </div><!-- end buttons -->
+                </div><!-- end magnifier -->
+            </div><!-- end entry -->
+        </div><!-- end portfolio_item -->
+
+        <div class="portfolio_item logo isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(1023px, 365px, 0px); width: 341px;">
+            <div class="entry">
+                <img src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/SS-3.png" alt="" class="img-responsive">
+                <div class="magnifier">
+                    <div class="buttons">
+                        <a class="st btn btn-default" rel="bookmark" href="http://localhost:8000/app/portfolio-single-sidebar.html">View all Abstract</a>
+                        <h3>Sculpture no.04</h3>
+                    </div><!-- end buttons -->
+                </div><!-- end magnifier -->
+            </div><!-- end entry -->
+        </div><!-- end portfolio_item -->
+    </div><!-- portfolio_wrapper -->
+
+    <div class="clearfix"></div>
+
+    <div class="buttons padding-top text-center">
+        <a href="http://localhost:8000/app/portfolio-masonry.html" class="btn btn-primary btn-lg" title="">Browse All Artworks</a>
+    </div>
+</section><!-- end white-wrapper -->
+
+<script type="text/javascriptlazy" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/custom-portfolio.js"></script></div>
+
+
+<ul class="menu">
+    <li><a href="http://localhost:8000/app/#/view1">view1</a></li>
+    <li><a href="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork.html">view2</a></li>
+</ul>
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- ngView:  --><div ng-view="" class="ng-scope"><p class="ng-scope">This is the partial for view 2.</p>
+<p class="ng-binding ng-scope">
+  Showing of 'interpolate' filter:
+  Current version is v0.1.
+</p>
+</div>
+
+<div>Grapevine Art: v<span app-version="">0.1</span></div>
+
+<div ng-controller="CommonCtrl" class="ng-scope">
+    <!-- ngInclude: footer.url --><div ng-include="footer.url" class="ng-scope"><footer id="footer-style-1" class="ng-scope">
+    <div class="container">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="widget">
+                <img class="padding-top" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/flogo.png" alt="">
+                <p>Since its establishment on 11 October 2007 Hanoi Grapevine has become an important and active promoter of the art scene in Vietnam. We focus mainly on contemporary art and culture, and provide information about art exhibitions.</p>
+                <div class="social-icons">
+                    <span><a data-toggle="tooltip" data-placement="bottom" title="Facebook" href="http://facebook.com/hanoigrapevine"><i class="fa fa-facebook"></i></a></span>
+                    <span><a data-toggle="tooltip" data-placement="bottom" title="Google Plus" href="https://plus.google.com/107357978071465735133"><i class="fa fa-google-plus"></i></a></span>
+                    <span><a data-toggle="tooltip" data-placement="bottom" title="Twitter" href="http://twitter.com/hanoigrapevine"><i class="fa fa-twitter"></i></a></span>
+                    <span><a data-toggle="tooltip" data-placement="bottom" title="Youtube" href="http://www.youtube.com/user/hanoigrapevine?sub_confirmation=1"><i class="fa fa-youtube"></i></a></span>
+                    <span><a data-toggle="tooltip" data-placement="bottom" title="Linkedin" href="http://www.linkedin.com/company/hanoi-grapevine"><i class="fa fa-linkedin"></i></a></span>
+                    <span><a data-toggle="tooltip" data-placement="bottom" title="Pinterest" href="http://www.pinterest.com/hanoigrapevine"><i class="fa fa-pinterest"></i></a></span>
+                </div><!-- end social icons -->
+            </div><!-- end widget -->
+        </div><!-- end columns -->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="widget">
+                <div class="title">
+                    <h3>Twitter Feeds</h3>
+                </div><!-- end title -->
+                <ul class="twitter_feed">
+                    <li><span></span><p>All the DocLab films are now available for download. And they're HD too!  <a href="http://j.mp/1t2ryoC">http://j.mp/1t2ryoC </a></p></li>
+                    <li><span></span><p>Dunkare's amazing book Hip Hop, the Art to be Unique, is now available (Vietnamese only)  <a href="http://bit.ly/1pfYZQL">http://bit.ly/1pfYZQL  </a></p></li>
+                </ul><!-- end twiteer_feed -->
+            </div><!-- end widget -->
+        </div><!-- end columns -->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="widget">
+                <div class="title">
+                    <h3>Popular Tags</h3>
+                </div><!-- end title -->
+                <div class="tagcloud">
+                    <a href="http://localhost:8000/app/#" class="" title="12 topics">abstract</a>
+                    <a href="http://localhost:8000/app/#" class="" title="2 topics">drawing</a>
+                    <a href="http://localhost:8000/app/#" class="" title="21 topics">landscape</a>
+                    <a href="http://localhost:8000/app/#" class="" title="5 topics">nude</a>
+                    <a href="http://localhost:8000/app/#" class="" title="62 topics">pop art</a>
+                    <a href="http://localhost:8000/app/#" class="" title="12 topics">portrait</a>
+                    <a href="http://localhost:8000/app/#" class="" title="88 topics">sculpture</a>
+                    <a href="http://localhost:8000/app/#" class="" title="15 topics">collage</a>
+                    <a href="http://localhost:8000/app/#" class="" title="5 topics">photography</a>
+                    <a href="http://localhost:8000/app/#" class="" title="62 topics">watercolor</a>
+                    <a href="http://localhost:8000/app/#" class="" title="12 topics">surrealism</a>
+                    <a href="http://localhost:8000/app/#" class="" title="88 topics">geometric</a>
+                    <a href="http://localhost:8000/app/#" class="" title="15 topics">animal</a>
+                </div>
+            </div><!-- end widget -->
+        </div><!-- end columns -->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="widget">
+                <div class="title">
+                    <h3>NewsLetter</h3>
+                </div><!-- end title -->
+                <div class="newsletter_widget">
+                    <p>Subscribe to our newsletter to receive news, updates, free stuff and new releases by email. We don't do spam..</p>
+                    <form action="http://localhost:8000/app/#" class="newsletter_form ng-pristine ng-valid">
+                        <input type="text" class="form-control" placeholder="Enter your email address">
+                        <a href="http://localhost:8000/app/#" class="btn btn-primary pull-right">Subscribe</a>
+                    </form><!-- end newsletter form -->
+                </div>
+            </div><!-- end widget -->
+        </div><!-- end columns -->
+    </div><!-- end container -->
+</footer><!-- end #footer-style-1 --></div>
+</div>
+
+<div class="dmtop" style="bottom: 25px;">Scroll to Top</div>
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+-->
+
+<!-- Main Scripts-->
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/jquery.js"></script>
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/bootstrap.min.js"></script>
+
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/owl.carousel.min.js"></script>
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/jquery.parallax-1.1.3.js"></script>
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/jquery.simple-text-rotator.js"></script>
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/wow.min.js"></script>
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/custom.js"></script>
+
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/jquery.isotope.min.js"></script>
+
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/angular.js"></script>
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/angular-route.js"></script>
+
+<!-- LAZY-LOAD for SCRIPTS in Directive template-->
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/angular-loadscript.js"></script>
+
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/app.js"></script>
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/services.js"></script>
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/controllers.js"></script>
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/filters.js"></script>
+<script src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/directives.js"></script>
+
+<script type="text/javascript" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/bootstrap-select.js"></script>
+<!-- Royal Slider script files -->
+<script type="text/javascript" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/jquery.easing-1.3.js"></script>
+<script type="text/javascript" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/jquery.royalslider.min.js"></script>
+
+<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+<script type="text/javascript" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="./Grapevine Art   Discover, Sell, Collect Vietnam's Best Artwork_files/jquery.themepunch.revolution.min.js"></script>
+
+<script>
+    setStyle("red");
+
+    function setStyle(styleName) {
+        $('link[rel*=style][title]').each(function (i) {
+            this.disabled = true;
+            if (this.getAttribute('title') == styleName) this.disabled = false;
+        });
+    }
+</script>
+
+
+</body></html>
