@@ -99,9 +99,15 @@
     </div><!-- end container -->
 </section><!-- end grey-wrapper -->
 
-<script type="text/javascript">
+<script type="text/javascriptlazy">
     jQuery(document).ready(function() {
-        $('#gallery-2').royalSlider({
+        window.setTimeout(function(){
+            royalAttach();
+        }, 200);
+
+
+        function royalAttach() {
+            $('#gallery-2').royalSlider({
             fullscreen: {
                 enabled: true,
                 nativeFS: true
@@ -119,7 +125,8 @@
             loop: true,
             arrowsNav: false,
             keyboardNavEnabled: true
-
         });
+        }
+
     });
 </script>
