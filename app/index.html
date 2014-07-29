@@ -11,26 +11,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Grapevine Art | Discover, Sell, Collect Vietnam's Best Artwork </title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Explore, Sell, Collect Vietnam's Best Artwork online, discover new Artist">
     <meta name="keywords" content="artwork, vietnam art, sell art, buy art, vietnam artwork, vietnam artist, collect art,
         art curator, sell artwork, buy artwork, collect artwork, art advisory">
     <meta name="author" content="Hanoi Grapevine">
+    <!--<base href="/app/">-->
     <link rel="shortcut icon" href="images/favicon.ico" />
     <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
     <!-- Bootstrap Styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
-
     <!-- Styles -->
     <link href="style.css" rel="stylesheet">
-
     <!-- Carousel Slider -->
     <link href="css/owl-carousel.css" rel="stylesheet">
-
     <!-- CSS Animations -->
     <link href="css/animate.min.css" rel="stylesheet">
-
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet'
           type='text/css'>
@@ -38,26 +34,22 @@
           rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Exo:400,300,600,500,400italic,700italic,800,900' rel='stylesheet'
           type='text/css'>
-
     <!-- SLIDER ROYAL CSS SETTINGS -->
     <link href="royalslider/royalslider.css" rel="stylesheet">
     <link href="royalslider/skins/default-inverted/rs-default-inverted.css" rel="stylesheet">
-
     <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
     <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="css/file-upload.css"/>
     <!-- Support for HTML5 -->
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <!-- Enable media queries on older bgeneral_rowsers -->
     <!--[if lt IE 9]>
     <script src="js/respond.min.js"></script>  <![endif]-->
-
     <!-- Switcher Only -->
     <link rel="stylesheet" id="switcher-css" type="text/css" href="switcher/css/switcher.css" media="all"/>
     <!-- END Switcher Styles -->
-
     <!-- Demo Examples -->
     <link rel="alternate stylesheet" type="text/css" href="switcher/css/red.css" title="red" media="all"/>
     <link rel="shortcut icon" href="images/favicon.ico" />
@@ -94,6 +86,9 @@
 <!-- Main Scripts-->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<!-- Fix for old browsers -->
+<script src="bower_components/es5-shim/es5-shim.min.js"></script>
+<script src="bower_components/es5-shim/es5-sham.min.js"></script>
 <!-- Royal Slider script files -->
 <script type="text/javascript" src="royalslider/jquery.easing-1.3.js"></script>
 <script type="text/javascript" src="royalslider/jquery.royalslider.min.js"></script>
@@ -105,6 +100,7 @@
 
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-file-upload/angular-file-upload.min.js"></script>
 
 <!-- LAZY-LOAD for SCRIPTS in Directive template-->
 <script src="js/angular-loadscript.js"></script>
@@ -131,6 +127,8 @@
             this.disabled = true;
             if (this.getAttribute('title') == styleName) this.disabled = false;
         });
+        $('.loader').hide();
+        $('.animationload').hide();
     }
 </script>
 </body>
