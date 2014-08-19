@@ -2505,6 +2505,9 @@ fieldset[disabled] .btn {
     border-color: #ededed;
 }
 
+.btn-calendar {
+    height: 40px;
+}
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
