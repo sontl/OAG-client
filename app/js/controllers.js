@@ -20,7 +20,7 @@ angular.module('myApp.controllers', ['angularFileUpload', 'ui.bootstrap', 'ngTag
         $scope.footer = $scope.templates[1];
         $scope.topbar = $scope.templates[2];
     }])
-    .controller('UploadCtrl', ['$scope', 'FileUploader',  function($scope, FileUploader, $http) {
+    .controller('UploadCtrl', ['$scope', 'FileUploader', '$http',  function($scope, FileUploader, $http) {
         var uploader = $scope.uploader = new FileUploader({
             url: 'http://localhost:8080/v1/object'
         });
