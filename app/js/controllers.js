@@ -169,6 +169,20 @@ angular.module('myApp.controllers', ['angularFileUpload', 'ui.bootstrap', 'ngTag
             return $http.get('/tags?query=' + query);
         };
 
+    }]).controller('BrowseArtCtrl', ['$scope', function ($scope) {
+
+    }]).controller('ArtworkDetailsCtrl', ['$scope', function ($scope) {
+
+
+    }]).controller('ShopCartCtrl', ['$scope', function ($scope) {
+
+    }]).controller('CheckoutCtrl', ['$scope', function ($scope) {
+
+    }]).controller('LoginCtrl', ['$scope', function ($scope) {
+
+    }]).controller('ArtistProfileCtrl', ['$scope', function ($scope) {
+
+    }]).controller('CollectionsCtrl', ['$scope', function ($scope) {
     }]);
 
 

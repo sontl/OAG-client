@@ -115,4 +115,4 @@ angular.module('myApp.directives', []).
                 }
             }
         };
-    }]);;
+    }]);
